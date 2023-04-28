@@ -1,0 +1,53 @@
+/*changes the font of                   
+<h1 class="heading display-5 pb-3">Tip Calculator</h1>
+*/
+h1.heading {
+  font-family: Georgia, serif;
+}
+
+
+/*add a purple background color to                   
+<h1 class="heading display-5 pb-3">Tip Calculator</h1>
+*/
+h1.heading {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+}
+
+/*
+create a rainbow gradient effect that shows up when
+<h1 class="heading display-5 pb-3">Tip Calculator</h1>
+is being hovered over*/
+h1.heading:hover {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/*change the text color of                   
+<label for="">Tip:</label>
+to green*/
+label[for=""] {
+  color: green;
+}
+
+
+/*change the text color of                   
+<h5 class="result">Result</h5>
+to green*/
+h5.result {
+  color: green;
+}
+
+
+/*change the text color of                   
+<span class="input-group-addon">Tip amount</span> & 
+<span class="input-group-addon">Total Bill with Tip</span> &
+<span class="input-group-addon">$</span>
+to green*/
+span.input-group-addon {
+  color: green;
+}
